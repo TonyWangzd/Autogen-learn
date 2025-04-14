@@ -28,7 +28,7 @@ async def main() -> None:
     )
     await Console(
         agent.run_stream(
-            task="Create a plot and report of MSFT stock prices in 2024 and save it to a file. Use yfinance and matplotlib."
+            task="Create a plot and report comparing MSFT and META stock prices in 2024 and save it to a file. Use yfinance and matplotlib."
         )
     )
 
